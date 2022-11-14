@@ -1,0 +1,39 @@
+
+
+cd folder
+python3 -m venv ./venv
+source venv/bin/activate
+pip install --upgrade pip
+pip install hvplot jupyterlab
+pip install 
+
+deactivate
+pip install panel
+
+source bin/activate
+jupyter lab
+
+create dashboard in .ipynb
+
+# go to terminal
+panel serve dashboard_co2.ipynb
+
+copy link: http://localhost:5006/dashboard_co2
+
+Data source
+https://ourworldindata.org/co2-and-other-greenhouse-gas-emissions
+https://github.com/owid/co2-data
+
+pip freeze > requirements.txt
+
+
+================================
+git init
+git add .
+git commit -m "Project creation c2"
+
+- create a repo in GitHub
+- copy url of the new repo
+
+git remote add origin https://github.com/granados-pastrana/dashboard_co2_analysis-.git
+git push -u origin main
